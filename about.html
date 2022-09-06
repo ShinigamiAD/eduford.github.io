@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Project </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+     <nav>
+        <a href="index.html"><img src="eduford_img/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSES</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>  
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+     </nav>
+       <h1>About Us</h1>
+    </section>
+ <!---------------------about us content----------------------->
+ <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1> We are the world's largest University</h1>
+            <p>Weaccepts almost 20 percent of all students in Ireland. This number is even bigger if it is compared to Germany, where 2.7 million students in total are matriculated.It was founded with the idea to make higher education available in every part of Dublin. Therefore it offers 226 study subjects across 21 faculties. With several institutions and 15 field offices in different countries, Dublin University guarantees itself an international place.Dublin City University is one of 16 universities included in U-Multirank for Ireland. Dublin City University is a large public university located in Dublin with 16663 students enrolled (2019 data or latest available). It was founded in 1989. With regard to the scope of its subjects and degree programmes offered, the Dublin City University is a comprehensive institution. It doesn't offer programmes in foreign languages.It doesn't offer programmes in foreign languages. 
+               It is characterised by a medium percentage of international students.The Dublin City University graduation rate is 92,38 for bachelors (A score) and 98,62 for masters (B score). </p>
+              <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="eduford_img/banner.png">
+        </div>
+ </div>
+ </section>
+
+
+
+
+
+    
+
+ <!-- ------------------------footer--------------------- -->
+
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>This website is filled with opportunity for undergraduate and graduate students who have interests in myriad majors and minors. You’ll find examples of extraordinary work by these students and by the many scientists, researchers, economists, artists, educators and counselors who have made this their home.You’ll also find hundreds of examples of this university’s many decades of service to eastern North Carolina and its outreach across the entire state and around the globe.If your mission is our mission, “To Serve,” you’ve found a home at ECU.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+    <p1>Copyright     <i class="fa fa-copyright" aria-hidden="true"></i>       2022, Ankit Trivedi. All rights reserved</p1>
+</section>
+
+
+
+
+
+
+ <!-----------------------------javaScript for Toggle Menu---------------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>

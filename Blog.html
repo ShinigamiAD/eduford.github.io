@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Project </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+     <nav>
+        <a href="index.html"><img src="eduford_img/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSES</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>  
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+     </nav>
+       <h1>Our Certificates & Online Programs for 2022</h1>
+    </section>
+
+    <!-- ------------------blog page---------------------->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+            <img src="eduford_img/bc.jpg">
+            <h2>Our Certificates & Online Programs for 2022</h2>
+            <p>Currently, there isn’t an internationally recognized university ranking featuring institutions that offer online degrees. However, some of the universities featured in regular university rankings do offer a lot of great online study options.</p>
+            <br>
+            <p>You don't need to quit your job or move to a new city to earn a top university degree. Learn from the same professors and graduate with a high-value credential from the same university. Choose from a wide variety of online Master’s and Bachelor’s degrees in some of today’s most in-demand fields.</p>
+            <br>
+            <p>DCU currently delivers more than 200 programmes through five faculties: DCU’s Institute of Education, Humanities and Social Sciences, Science and Health, Engineering and Computing and DCU Business School. DCU has a proud 30-year history of delivering distance and online higher education through DCU Connected and it is home to the National Institute of Digital Learning. The University is a member of both the International Council for Open and Distance Education and European Association of Distance Teaching Universities.</p>
+            <br>
+            <p>Research is a high priority at DCU, with the focus on global grand challenges, such as healthcare needs, sustainable development, multicultural societies, and conflict resolution. DCU’s enterprise focus is reflected in its strong industry-academic collaborations and successful execution of licences arising from its intellectual property portfolio. DCU’s excellence is recognised internationally and it is ranked in Times Higher Education’s ‘Top 100 under 50’. DCU is also the only Irish university to be represented in the prestigious European university network, The European Consortium of Innovative Universities.</p>
+            <br>
+            <p>As you learn how to develop and professionalise your online identity and safeguard your online presence, you’ll pick up the skills required to thrive as a lifelong learner in today’s rapidly changing digital world.</p>
+            <br>
+            <p>This course helps you to understand data and business analytics. It then gives you the opportunity to apply these business analytics algorithms and methodologies to real-world business datasets. </p>
+            <br>
+            <p><b>Are You Ready To Create Real Change?</b></p>
+            <br>
+            <p>Learn bold, innovative thinking as practiced at Stanford with our online programs and courses. By thinking and acting differently, you'll be able to break free from the way things have always been done and solve your biggest challenges. Designed for working professionals, all of our programs and courses can be completed alongside a full-time career.</p>
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea  rows="5" placeholder="Your Comment">
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Artificial Intelligence</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>31</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Business Analytics</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Digital Marketing</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Bsc.Mathematics</span>
+                <span>30</span>
+            </div>
+        </div>
+      </div>
+    </section>
+ 
+ 
+
+
+
+
+    
+
+ <!-- ------------------------footer--------------------- -->
+
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>This website is filled with opportunity for undergraduate and graduate students who have interests in myriad majors and minors. You’ll find examples of extraordinary work by these students and by the many scientists, researchers, economists, artists, educators and counselors who have made this their home.You’ll also find hundreds of examples of this university’s many decades of service to eastern North Carolina and its outreach across the entire state and around the globe.If your mission is our mission, “To Serve,” you’ve found a home at ECU.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+    <p1>Copyright     <i class="fa fa-copyright" aria-hidden="true"></i>       2022, Ankit Trivedi. All rights reserved</p1>
+</section>
+
+
+
+
+
+
+ <!-----------------------------javaScript for Toggle Menu---------------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Project </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+     <nav>
+        <a href="index.html"><img src="eduford_img/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSES</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li> 
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+     </nav>
+       <h1>Our Courses</h1>
+    </section>
+ <!---------------------course----------------------->
+ <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>We offer a range of short, online courses that are open to everyone. Over seven weeks, 
+        you could indulge your interest in the wonders of our cosmos, reveal the real writer inside you, 
+        further your training in finance or even consider a career in coaching. Our ever-
+        changing portfolio of online classes provides both personal enrichment and professional
+        development, combined with the quality of education you’d expect from the University of 
+        Cambridge.
+    </p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <P>This course deals with all things server-side. We base the entire course around the NodeJS platform. We start with a brief overview of the Webprotocols: HTTP and HTTPS. We examine NodeJS and NodeJS modules: Express for building web servers.<br><br>you will have developed several applications using front-end and back-end technologies and deployed them on a cloud platform using Cloud Native methodologies</P>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <P>Artificial Intelligence (AI) degrees teach students how to use advanced Mathematics, Computer Science, and Engineering to create systems and machines (e.g. robots, drones) capable of solving problems that normally require natural intelligence.<br><br>earn your internationally recognised Applied Artificial Intelligence Bachelor from IU University of Applied Sciences, and get ready for exciting opportunities!</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Gradution</h3>
+            <P>Master’s in Artificial Intelligence degrees provide in-depth theoretical and practical knowledge in artificial intelligence topics. Many Students also have work experience or at least a strong interest in the artificial intelligence specialty in computer science.<br><br>Artificial intelligence requires excellent algorithm design, coding, and data analysis.</p>
+    </div>
+ </section>
+
+ <!-- ------------------------facilities----------------------------- -->
+ <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Core facilities are an integral part of modern research universities and institutes.They are specialized laboratories with unique (usually expensive) instruments and services, managed by scientists with the technical expertise and experience to help others who need these capabilities.The entire campus is Wi-fi enabled with high speed internet connection</p>
+
+    <div class="row">
+         <div class="facilities-col">
+         <img src="eduford_img/library.png">
+         <h3>World Class library</h3>
+         <p>Library holds the distinction of being the largest building in the world that serves the express purpose of preserving rare books </p>
+         </div>
+           <div class="facilities-col">
+            <img src="eduford_img/basketball.png">
+            <h3>Campus Playground</h3>
+            <p>The University presently have lush green playground, where regular sports & games such as volleyball, football and cricket etc are conducted time to time. We have facility for indoor games such as chess, badminton, Table Tennis and Snooker. </p>
+            </div>
+            <div class="facilities-col">
+            <img src="eduford_img/cafeteria.png">
+            <h3>Campus Cafeteria</h3>
+            <p>The Institute provides canteen facility located within the Institute Campus.The canteen serves breakfast, lunch, snacks & dinner to the students.
+            The cafeteria provides fresh & hygienic food to students.</p>
+            </div>
+    </div>  
+ </section>
+ 
+
+
+
+
+    
+
+ <!-- ------------------------footer--------------------- -->
+
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>This website is filled with opportunity for undergraduate and graduate students who have interests in myriad majors and minors. You’ll find examples of extraordinary work by these students and by the many scientists, researchers, economists, artists, educators and counselors who have made this their home.You’ll also find hundreds of examples of this university’s many decades of service to eastern North Carolina and its outreach across the entire state and around the globe.If your mission is our mission, “To Serve,” you’ve found a home at ECU.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+    <p1>Copyright     <i class="fa fa-copyright" aria-hidden="true"></i>       2022, Ankit Trivedi. All rights reserved</p1>
+</section>
+
+
+
+
+
+
+ <!-----------------------------javaScript for Toggle Menu---------------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
